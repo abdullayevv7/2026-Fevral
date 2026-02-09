@@ -1,37 +1,3 @@
-# # # #print("Hello World")
-
-# class Obuna:
-#     def __init__(self, foydalanuvchi, asosiy_narx):
-#         self.foydalanuvchi = foydalanuvchi
-#         self.asosiy_narx = asosiy_narx
-        
-#     def oylik_tolov(self):
-#         return self.asosiy_narx
-    
-#     def tavsif(self):
-#            return f"Foydalanuvchi: {self.foydalanuvchi}, Tarif: Oddiy, Oylik to'lov: {self.oylik_tolov()}"
-    
-    
-# class TalabaObunasi(Obuna):
-#     def __init__(self, foydalanuvchi, asosiy_narx, talaba_id):
-#         super().__init__(foydalanuvchi, asosiy_narx)
-#         self.talaba_id = talaba_id
-        
-#     def oylik_tolov(self):
-#         return self.asosiy_narx * 0.7
-    
-#     def tavsif(self):
-#            return f"Foydalanuvchi: {self.foydalanuvchi}, Tarif: Talaba, Talaba ID: {self.talaba_id}, Oylik to'lov: {self.oylik_tolov()}"
-    
-    
-# class OilaviyObuna(Obuna):
-#     def __init__(self, foydalanuvchi, asosiy_narx, ekranlar_soni):
-#         super().__init__(foydalanuvchi, asosiy_narx)
-#         self.ekranlar_soni = ekranlar_soni
-        
-        
-        
-        # # #print("Hello World")
 
 class Obuna:
     def __init__(self, foydalanuvchi, asosiy_narx):
